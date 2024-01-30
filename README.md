@@ -5,6 +5,8 @@ A session store backed by an Active Record class. A default class is
 provided, but any object duck-typing to an Active Record Session class
 with text `session_id` and `data` attributes is sufficient.
 
+Ruby 3 `RuntimeError (class variable @@silencer of ActiveSupport::Logger is overtaken by Logger)` fixed in v1.1.4 branch
+
 Installation
 ------------
 
